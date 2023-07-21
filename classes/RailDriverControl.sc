@@ -94,10 +94,10 @@ RailDriverControl {
 			elUsageID: (29..44),
 			elPageID: 9,
 			deviceInfo: IdentityDictionary.newFrom([\vendorID, 0x05f3, \productID, 0x00d2])
-	    );
+		);
 
-	    // Analog sticks
-	    HIDFunc.usageID(
+		// Analog sticks
+		HIDFunc.usageID(
 			{
 				arg value, rawValue, usage;
 
